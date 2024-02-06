@@ -37,175 +37,155 @@ export function CarouselTransition() {
       autoplay={true}
     >
       
-      <div className="sm:h-[600px] h-[500px] p-1 w-full flex flex-wrap  justify-center items-center overflow-hidden">
-        <p className="w-full md:text-2xl text-md text-center font-bold">SWITCHGEAR PRODUCTS :</p>
+      <div>
+        <p className="w-full md:text-2xl text-md text-center font-bold py-4">SWITCHGEAR PRODUCTS :</p>
+        <div className="lg:h-[600px] md:h-[500px] h-[400px] p-1 w-full flex flex-wrap  justify-center items-center overflow-hidden">
         <img
           src={lt}
           alt="image 3"
-          className="h-1/2 w-1/2 object-cover aspect-square"
+          className="h-1/2 w-1/2 lg:object-cover"
         />
         <img
           src={ABB}
           alt="image 1"
-          className="h-1/2 w-1/2  object-coveraspect-square"
+          className="h-1/2 w-1/2 lg:object-contain bg-white"
         />
         <img
           src={schneider}
           alt="image 2"
-          className="h-1/2 w-1/2  object-coveraspect-square"
+          className="h-1/2 w-1/2 lg:object-cover"
         />
         <img
           src={seimens}
           alt="image 3"
-          className="h-1/2 w-1/2 object-cover aspect-square"
+          className="h-1/2 w-1/2 lg:object-cover"
         />
+        </div>
       </div>
-      <div className="sm:h-[600px] h-[500px] p-1 w-full flex flex-wrap  justify-center items-center overflow-hidden">
-        <p className="w-full md:text-2xl text-md text-center font-bold"> CABLES & WIRES PRODUCTS :</p>
+      <div>
+        <p className="w-full md:text-2xl text-md text-center font-bold py-4"> CABLES & WIRES PRODUCTS :</p>
+        <div className="lg:h-[600px] md:h-[500px] h-[400px] p-1 w-full flex flex-wrap  justify-center items-center overflow-hidden">
         <img
           src={polycab}
           alt="image 3"
-          className="h-1/2 w-1/2  object-coveraspect-square"
+          className="h-1/2 w-1/2 object-contain bg-white"
         />
          <img
           src={finolex}
           alt="image 3"
-          className="h-1/2 w-1/2  object-coveraspect-square"
+          className="h-1/2 w-1/2 lg:object-contain bg-white"
         />
         <img
           src={ccoi}
           alt="image 3"
-          className="h-1/2 w-1/2  object-coveraspect-square"
+          className="h-1/2 w-1/2 lg:object-contain bg-white"
         />
         <img
           src={rr}
           alt="image 1"
-          className="h-1/2 w-1/2  object-coveraspect-square"
+          className="h-1/2 w-1/2 lg:object-contain bg-white"
         />
+        </div>
       </div>
-      <div className="sm:h-[600px] h-[500px] p-1 w-full flex flex-wrap  justify-center items-center overflow-hidden">
-        <p className="w-full md:text-2xl text-md text-center font-bold">LIGHTING & FIXTURES :</p>
+      <div>
+        <p className="w-full md:text-2xl text-md text-center font-bold py-4">LIGHTING & FIXTURES :</p>
+        <div className="lg:h-[600px] md:h-[500px] h-[400px] p-1 w-full flex flex-wrap  justify-center items-center overflow-hidden">
         <img
           src={bajaj}
           alt="image 2"
-          className="h-1/2 w-1/2  object-coveraspect-square"
+          className="h-1/2 w-1/2 p-4 object-contain bg-white"
         />
         <img
           src={wipro}
           alt="image 3"
-          className="h-1/2 w-1/2  object-coveraspect-square"
+          className="h-1/2 w-1/2 p-4 object-contain bg-white"
         />
          <img
           src={philips}
           alt="image 3"
-          className="h-1/2 w-1/2  object-coveraspect-square"
+          className="h-1/2 w-1/2 p-4 object-contain bg-white pb-4"
         />
         <img
           src={osram}
           alt="image 1"
-          className="h-1/2 w-1/2  object-coveraspect-square"
+          className="h-1/2 w-1/2 p-4 object-contain bg-white pb-4"
         />
+        </div>
       </div>
-      <div className="sm:h-[600px] h-[500px] p-1 w-full flex flex-wrap  justify-center items-center overflow-hidden">
-        <p className="w-full md:text-2xl text-md text-center font-bold">SWITCHES & AUTOMATION :</p>
+      <div>
+        <p className="w-full md:text-2xl text-md text-center font-bold py-4">SWITCHES & AUTOMATION :</p>
+        <div className="lg:h-[600px] md:h-[500px] h-[400px] p-1 w-full flex flex-wrap  justify-center items-center overflow-hidden">
         <img
           src={legrand}
           alt="image 2"
-          className="h-1/2 w-1/2  object-coveraspect-square"
+          className="h-1/2 w-1/2 object-contain bg-white "
         />
         <img
           src={chipsal}
           alt="image 3"
-          className="h-1/2 w-1/2  object-coveraspect-square"
+          className="h-1/2 w-1/2 object-contain bg-white"
         />
         <img
           src={honeywell}
           alt="image 3"
-          className="h-1/2 w-1/2  object-coveraspect-square"
+          className="h-1/2 w-1/2 object-contain bg-white pb-8"
         />
         <img
           src={anchor}
           alt="image 3"
-          className="h-1/2 w-1/2  object-coveraspect-square"
+          className="h-1/2 w-1/2 object-contain bg-white"
         />
+        </div>
       </div>
-      <div className="sm:h-[600px] h-[500px] p-1 w-full flex flex-wrap  justify-center items-center overflow-hidden">
-        <p className="w-full md:text-2xl text-md text-center font-bold"> CIRCUIT BREAKER & TIMERS & CONTROLLER :</p>
+      <div>
+        <p className="w-full md:text-2xl text-md text-center font-bold py-4"> CIRCUIT BREAKER & TIMERS & CONTROLLER :</p>
+        <div className="lg:h-[600px] md:h-[500px] h-[400px] p-1 w-full flex flex-wrap  justify-center items-center overflow-hidden">
         <img
           src={indoasian}
           alt="image 1"
-          className="h-1/2 w-1/2  object-coveraspect-square"
+          className="h-1/2 w-1/2  object-contain bg-white"
         />
         <img
           src={eapl}
           alt="image 2"
-          className="h-1/2 w-1/2  object-coveraspect-square"
+          className="h-1/2 w-1/2  object-contain bg-white"
         />
         <img
           src={select}
           alt="image 3"
-          className="h-1/2 w-1/2  object-coveraspect-square"
+          className="h-1/2 w-1/2  object-contain bg-white"
         />
         <img
           src={hager}
           alt="image 3"
-          className="h-1/2 w-1/2  object-coveraspect-square"
+          className="h-1/2 w-1/2  object-contain bg-white"
         />
+        </div>
       </div>
-      {/* <div className="sm:h-[600px] h-[500px] p-1 w-full flex flex-wrap  justify-center items-center overflow-hidden">
-        <p className="w-full md:text-2xl text-md text-center font-bold">SILVERTIP CONTACTS AND SILVER COATED CONTACTS :</p>
-        <img
-          src={img1}
-          alt="image 3"
-          className="h-full w-full  object-coveraspect-square"
-        />
-      </div>
-      <div className="sm:h-[600px] h-[500px] p-1 w-full flex flex-wrap  justify-center items-center overflow-hidden">
-        <p className="w-full md:text-2xl text-md text-center font-bold">BRASS & COPPER CONTACTS :</p>
-        <img
-          src={img2}
-          alt="image 3"
-          className="h-full w-full  object-coveraspect-square"
-        />
-      </div>
-      <div className="sm:h-[600px] h-[500px] p-1 w-full flex flex-wrap  justify-center items-center overflow-hidden">
-        <p className="w-full md:text-2xl text-md text-center font-bold">CARBON BRUSHES & BRUSH HOLDERS : </p>
-        <img
-          src={img3}
-          alt="image 3"
-          className="h-full w-full  object-coveraspect-square"
-        />
-      </div>
-      <div className="sm:h-[600px] h-[500px] p-1 w-full flex flex-wrap  justify-center items-center overflow-hidden">
-        <p className="w-full md:text-2xl text-md text-center font-bold">EARTHING PRODUCTS : </p>
-        <img
-          src={img4}
-          alt="image 3"
-          className="h-full w-full  object-coveraspect-square"
-        />
-      </div> */}
-      <div className="sm:h-[600px] h-[500px] p-1 w-full flex flex-wrap  justify-center items-center overflow-hidden">
-        <p className="w-full md:text-2xl text-md text-center font-bold"> LED LIGHTING :</p>
+      <div>
+        <p className="w-full md:text-2xl text-md text-center font-bold py-4"> LED LIGHTING :</p>
+        <div className="lg:h-[600px] md:h-[500px] h-[400px] p-1 w-full flex flex-wrap  justify-center items-center overflow-hidden">
         <img
           src={blub}
           alt="image 1"
-          className="h-1/2 w-1/2  object-coveraspect-square"
+          className="h-1/2 w-1/2  object-contain bg-[#ffffff]"
         />
         <img
           src={downligth}
           alt="image 2"
-          className="h-1/2 w-1/2  object-coveraspect-square"
+          className="h-1/2 w-1/2  object-contain bg-[#e3e3e3]"
         />
         <img
           src={roofligth}
           alt="image 3"
-          className="h-1/2 w-1/2  object-coveraspect-square"
+          className="h-1/2 w-1/2  object-contain bg-[#e4e2e5]"
         />
         <img
           src={leddrivers}
           alt="image 3"
-          className="h-1/2 w-1/2  object-coveraspect-square"
+          className="h-1/2 w-1/2  object-contain bg-white"
         />
+        </div>
       </div>
     </Carousel>
   );
