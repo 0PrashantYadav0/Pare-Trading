@@ -1,5 +1,4 @@
 import React from "react";
-import { CarouselTransition } from "../components/Slider";
 import LogoP from "../components/Logo";
 import { Link } from "react-router-dom";
 import { GoPlug } from "react-icons/go";
@@ -14,18 +13,19 @@ import legrand from "../assets/legrand.jpeg";
 import eapl from "../assets/eapl.png";
 import ABB from "../assets/ABB.jpeg";
 import roofligth from "../assets/roofligth.jpeg";
+import { VideoPlayer } from "../components/Slider";
 
 function Home() {
   return (
     <main className="bg-gradient-to-b from-blue-gray-50 via-blue-gray-200 to-blue-gray-400">
+      <div className="rounded-xl flex justify-center">
+        <VideoPlayer />
+      </div>
       <div className="flex justify-center gap-6 md:gap-8 pt-12 ">
         <LogoP />
         <h1 className="text-xl title-font text-center text-red-700 font-bold sm:text-4xl">
           PARE TRADING CO.
         </h1>
-      </div>   
-      <div className="sm:m-10 rounded-xl m-1 ">
-        <CarouselTransition />
       </div>
       <div className="bg-gradient-to-b from-blue-gray-50 via-blue-gray-200 to-blue-gray-400 pb-24">
         <section class="text-gray-900 body-font bg-gradient-to-b from-blue-gray-500 via-blue-gray-400 to-blue-gray-200">
@@ -58,10 +58,10 @@ function Home() {
                   <p class="text-lg text-gray-900 font-medium title-font mb-2">
                     CABLES & WIRES PRODUCTS
                   </p>
-                  <img src={rr} alt="" className=" w-full aspect-square"/>
+                  <img src={rr} alt="" className=" w-full aspect-square" />
                 </div>
               </div>
-              <div class="xl:w-1/3 md:w-1/2 sm:w-full w-full p-4">
+              <div class="xl:w-1/3 md:w-1/2 sm:w-full p-4">
                 <div class="border-2 border-black bg-blue-gray-100 p-6 rounded-lg">
                   <div class="w-10 h-10 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 mb-4">
                     <FaLightbulb className="w-8 h-6" />
@@ -69,7 +69,7 @@ function Home() {
                   <p class="text-lg text-gray-900 font-medium title-font mb-2">
                     LIGHTING & FIXTURES
                   </p>
-                  <img src={wipro} alt="" className="w-full aspect-square"/>
+                  <img src={wipro} alt="" className="w-full aspect-square" />
                 </div>
               </div>
               <div class="xl:w-1/3 md:w-1/2 sm:w-full p-4">
@@ -80,7 +80,7 @@ function Home() {
                   <p class="text-lg text-gray-900 font-medium title-font mb-2">
                     SWITCHES & AUTOMATION
                   </p>
-                  <img src={legrand} alt=""className=" w-full aspect-square" />
+                  <img src={legrand} alt="" className=" w-full aspect-square" />
                 </div>
               </div>
               <div class="xl:w-1/3 md:w-1/2 sm:w-full p-4">
@@ -102,7 +102,11 @@ function Home() {
                   <p class="text-lg text-gray-900 font-medium title-font mb-2">
                     LED LIGHTING
                   </p>
-                  <img src={roofligth} alt="" className=" w-full aspect-square"/>
+                  <img
+                    src={roofligth}
+                    alt=""
+                    className=" w-full aspect-square"
+                  />
                 </div>
               </div>
             </div>
@@ -141,16 +145,18 @@ function Home() {
           </div>
         </section>
         <section class="text-whitebody-font bg-gray-900 rounded-3xl mx-12">
-  <div class="container px-5 py-12">
-    <div class="lg:w-full flex flex-col sm:flex-row sm:items-center items-start">
-      <h1 class="flex-grow sm:pr-16 text-2xl font-medium title-font text-white">Unlock communication excellence with a simple click – press the button to embark on a seamless journey to connect with us.</h1>
-      <button class="flex-shrink-0 text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600 rounded text-lg mt-10 sm:mt-0">
-        <Link to="/contact-us">
-        Click Here
-        </Link></button>
-    </div>
-  </div>
-</section>
+          <div class="container px-5 py-12">
+            <div class="lg:w-full flex flex-col sm:flex-row sm:items-center items-start">
+              <h1 class="flex-grow sm:pr-16 text-2xl font-medium title-font text-white">
+                Unlock communication excellence with a simple click – press the
+                button to embark on a seamless journey to connect with us.
+              </h1>
+              <button class="flex-shrink-0 text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600 rounded text-lg mt-10 sm:mt-0">
+                <Link to="/contact-us">Click Here</Link>
+              </button>
+            </div>
+          </div>
+        </section>
       </div>
     </main>
   );
