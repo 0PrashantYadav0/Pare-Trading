@@ -130,12 +130,6 @@ function About() {
               </div>
             </div>
           </div>
-          <div className="text-center mt-8">
-            <p className="text-xl text-zinc-700 leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto">
-              We are enclosing herewith, our Product and Catalogue Copy as per
-              Appendices "A" and "B" respectively.
-            </p>
-          </div>
         </div>
       </section>
       <section className="text-gray-600 body-font">
