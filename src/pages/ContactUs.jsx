@@ -36,6 +36,9 @@ function ContactUs() {
               <div className=" w-full p-4 text-center">
                 <span className="text-gray-600 font-medium">Email: </span>
                 <a className="text-indigo-500">s.shah1976@yahoo.co.in</a>
+                <br />
+                <span className="text-gray-600 font-medium">Website: </span>
+                <a className="text-indigo-500 cursor-pointer" href="https://pare-trading.vercel.app/">https://pare-trading.vercel.app</a>
                 <div>
                   <span className="text-gray-600 font-medium">
                     Name: Shaishav Shah{" "}
