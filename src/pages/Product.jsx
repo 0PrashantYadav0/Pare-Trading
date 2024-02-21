@@ -233,7 +233,7 @@ function Product() {
                   alt=""
                   className="w-1/2 object-cover object-center"
                 />
-                <img src={anchor} alt="" className="w-1/2" />
+                <img src={anchor} alt="" className="w-1/2 bg-white" />
               </div>
             </div>
             <div className="flex flex-wrap -mx-4 mt-auto mb-auto lg:w-1/2 sm:w-2/3 content-start sm:pr-10">

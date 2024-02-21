@@ -3,7 +3,7 @@ import LogoP from "../components/Logo";
 
 function ContactUs() {
   return (
-    <section className="text-gray-600 body-font relative bg-gradient-to-b from-blue-gray-50 via-blue-gray-200 to-blue-gray-400">
+    <section className="text-gray-600 body-font relative bg-gradient-to-b from-blue-gray-50 via-blue-gray-200 to-blue-gray-400 font-bold">
       <div className="flex justify-center gap-6 md:gap-8 pt-12">
       <LogoP />
         <h1 className="text-xl title-font text-center text-red-700 font-bold sm:text-4xl">
@@ -22,7 +22,7 @@ function ContactUs() {
           If you w contact us here is Information
         </p>
       </div>
-      <div class="container px-5 py-12 mx-auto flex sm:flex-nowrap flex-wrap">
+      <div class="container px-5 py-12 mx-auto flex sm:flex-nowrap flex-wrap font-bold">
         <div class="w-full bg-gray-300 rounded-lg overflow-hidden sm:mr-10 p-10 flex items-end justify-start relative h-[1000px]">
           <iframe
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4086.778008246474!2d72.82756334372489!3d18.946500885415237!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7ce21a4adeb9b%3A0x7d17a2c3541c92c7!2sVishwanath%20Building%2C%20Kantilal%20M%20Sharma%20St%2C%20Lohar%20Chawl%2C%20Kalbadevi%2C%20Mumbai%2C%20Maharashtra%20400002!5e0!3m2!1sen!2sin!4v1706099319859!5m2!1sen!2sin"
@@ -33,7 +33,7 @@ function ContactUs() {
           ></iframe>
           <div class="bg-white relative flex flex-wrap py-6 rounded shadow-md w-full">
             <div className="flex max-md:flex-wrap w-full">
-              <div className=" w-full p-4 text-center">
+              <div className=" w-full p-4 text-center font-bold text-xl">
                 <span className="text-gray-600 font-medium">Email: </span>
                 <a className="text-indigo-500">s.shah1976@yahoo.co.in</a>
                 <br />
